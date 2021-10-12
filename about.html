@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+    <div class="topnav" id="myTopnav">
+        <a href="home.html">Home</a>
+        <a href="about.html" class="active">About</a>
+        
+        <a href="testimonial.html">Testimonial</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+</head>
+
+<head>
+  <br> <br> <br>
+    <body>
+        
+      <div id="Page1">
+        About me ~ 
+        <a href="#" onclick="return show('Page2','Page1');">Projects</a>
+        <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2>2017</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2016</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>2015</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2012</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="container left">
+              <div class="content">
+                <h2>2011</h2>
+                <p></p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2007</h2>
+                <p></p>
+              </div>
+            </div>
+          </div>
+          
+      </div>
+        
+      <div id="Page2" style="display:none">
+        Projects ~ 
+        <a href="#" onclick="return show('Page1','Page2');">About me</a>
+        <p>dfghjfguhij</p>
+      </div>
+        
+    </body>
+</html>
