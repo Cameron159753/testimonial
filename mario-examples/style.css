@@ -121,12 +121,7 @@ html, body{
   }
 
   
-  /* @keyframes drive {
-    from { transform: rotatey(180deg);} 
-    to { transform: rotatey(180deg);}
-    
-    } */
-
+ 
 
 @keyframes wind {
   from { left: -300px }

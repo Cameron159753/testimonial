@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="script.js"></script>
     <title>Document</title>
 </head>
 <div class="topnav" id="myTopnav">
-    <a href="home.html">Home</a>
+    <a href="index.html">Home</a>
     <a href="about.html">About</a>
     <a href="contact.html"class="active">contact</a>
     <a href="testimonial.html">Testimonial</a>
@@ -17,38 +18,24 @@
       <i class="fa fa-bars"></i>
     </a>
   </div>
-<body>
+
     <div class="tact-image"></div>
 
 <div class="tact-text">
   <form method="POST" action="https://formspree.io/f/xyylvzgn">
         
-    <h1><u>Contact information</u></h1>    
+    <h1><u>Contact information</u></h1>  
+    Name:<br>
+    <input type="tetx" name ="email" required placeholder="name..."><br><br>
+    Surname:<br>
+    <input type="text" name ="email" required placeholder="surname..."><br><br>  
     Email:<br>
-    <input type="email" name ="email" required><br><br>
+    <input type="email" name ="email" required placeholder="example@gmail.com..."><br><br>
     
     Phone Number: <br>
     <input type="text" name ="Password" required placeholder="+27 82 456 7891"><br><br>
-    <label for="age">Age:</label>
-    <select name="age" id="age">
-      <option>Select age</option>
-      <option value="19">19</option>
-      <option value="20">20</option>
-      <option value="21">21</option>
-      <option value="22">22</option>
-      <option value="older">older</option>
-    </select>
-    <br><br>
-    <label for="age">Select Region:</label>
-    <select name="age" id="age">
-      <option>Select Region</option>
-      <option value="NA">NA</option>
-      <option value="EU">EU</option>
-      <option value="SA">SA</option>
-      <option value="Asia">Aisa</option>
-      
-    </select>
-    <br> <br>
+    
+    
     <input type="checkbox" name="agree" required>
     <label for="agree">I agree to the <a href="#">terms of service</a> </label>
     <br> <br>
@@ -57,5 +44,6 @@
 
 </form>
 </div> 
-</body>
+
+
 </html>
