@@ -26,7 +26,7 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #d3b71b;
   color: white;
 }
 
@@ -57,13 +57,7 @@ body {
 }
 /*end navrbar*/
 
-/*flip card*/
-
-
-
-
-
-
+/* timeline */
 * {
   box-sizing: border-box;
 }
@@ -190,6 +184,15 @@ body {
   left: 0%;
   }
 }
+/* end */
+
+/* start card */
+
+.con{
+  display: inline-block;
+  display: flex; 
+  
+}
 
 .pop-container {
   margin: auto;
@@ -312,3 +315,9 @@ body {
   border-bottom-right-radius: 5px;
 }
 
+@media screen and (max-width: 600px){
+  .pop-container{
+    display: inline-block;
+  }
+}
+/* end */
